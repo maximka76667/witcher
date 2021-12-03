@@ -1,0 +1,73 @@
+@import url(./fonts/fonts.css);
+
+body {
+  background-color: rgb(27, 26, 26);
+  font-family: TW;
+}
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  font-size: 600%;
+}
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+}
+#menu {
+  margin: 400px auto 0;
+  margin-top: 15%;
+  border-collapse: collapse;
+}
+#menu td {
+  text-align: center;
+}
+#menu td img:hover {
+  width: 180px;
+  height: 180px;
+}
+.señales {
+  width: 160px;
+  height: 160px;
+}
+.categoría {
+  color: white;
+}
+#naciones {
+  margin: 400px auto 0;
+  margin-top: 0%;
+  border-collapse: collapse;
+}
+.naciones {
+  color: white;
+  text-align: center;
+  font-size: medium;
+  font-style: italic;
+  text-align: center;
+}
+#naciones td {
+  text-align: center;
+  border: 2px solid white;
+}
+#libros {
+  margin-left: auto;
+  margin-right: auto;
+}
+#libros td {
+  text-align: center;
+  color: white;
+}
+#libros td img {
+  width: 270px;
+  height: 350px;
+}
+#libros td img:hover {
+  width: 300px;
+  height: 380px;
+}
+#libros p {
+  padding-bottom: 15px;
+}
