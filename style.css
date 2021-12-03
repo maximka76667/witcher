@@ -1,46 +1,89 @@
 @import url(./fonts/fonts.css);
 
+@keyframes main__heading {
+  50% {
+    letter-spacing: 10px;
+  }
+}
+
 body {
   background-color: rgb(27, 26, 26);
   font-family: TW;
 }
+
+.main__heading-link {
+  transition: all 0.3s;
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: 5px;
+}
+
+.main__heading-link:hover {
+  animation: main__heading 0.3s;
+}
+
 h1 {
   margin-left: auto;
   margin-right: auto;
   color: white;
   text-align: center;
-  font-size: 600%;
+  font-size: 120px;
 }
-h3 {
-  margin-left: auto;
-  margin-right: auto;
+
+h2 {
+  margin: 0 auto;
+  font-size: 30px;
   color: white;
   text-align: center;
 }
+
 #menu {
-  margin: 400px auto 0;
-  margin-top: 15%;
+  margin: 100px auto 0;
   border-collapse: collapse;
 }
+
+#menu tr {
+  display: flex;
+}
+
 #menu td {
+  display: block;
   text-align: center;
 }
-#menu td img:hover {
-  width: 180px;
-  height: 180px;
+
+#menu td:not(:last-of-type) {
+  margin-right: 50px;
 }
+
+#menu td img {
+  transition: all 0.2s;
+}
+
+#menu td img:hover {
+  transform: scale(1.1);
+}
+
+.menu__categories {
+  margin-top: 5px;
+}
+
 .señales {
   width: 160px;
   height: 160px;
 }
+
 .categoría {
+  width: 160px;
+  font-size: 25px;
   color: white;
 }
+
 #naciones {
   margin: 400px auto 0;
   margin-top: 0%;
   border-collapse: collapse;
 }
+
 .naciones {
   color: white;
   text-align: center;
@@ -48,26 +91,32 @@ h3 {
   font-style: italic;
   text-align: center;
 }
+
 #naciones td {
   text-align: center;
   border: 2px solid white;
 }
+
 #libros {
   margin-left: auto;
   margin-right: auto;
 }
+
 #libros td {
   text-align: center;
   color: white;
 }
+
 #libros td img {
   width: 270px;
   height: 350px;
 }
+
 #libros td img:hover {
   width: 300px;
   height: 380px;
 }
+
 #libros p {
   padding-bottom: 15px;
 }
