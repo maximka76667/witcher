@@ -22,6 +22,10 @@ body {
   animation: main__heading 0.3s;
 }
 
+a, a:visited, a:hover, a:focus, a:hover  {
+  text-decoration: none;
+}
+
 h1 {
   margin-left: auto;
   margin-right: auto;
@@ -35,6 +39,11 @@ h2 {
   font-size: 30px;
   color: white;
   text-align: center;
+}
+
+h3  {
+  text-align: center;
+  color: white;
 }
 
 #menu {
@@ -94,7 +103,75 @@ h2 {
 
 #naciones td {
   text-align: center;
-  border: 2px solid white;
+  padding-right: 30px;
+}
+
+.iconosnaciones {
+  width: 100px;
+  height: 100px;
+}
+
+.iconosnaciones:hover{
+  transform: scale(1.1);
+}
+
+#nilfgaard  {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nilfgaard td   {
+  padding: 15px;
+}
+
+#nilfgaard p {
+  color: #C79B49;
+  text-align: center;
+}
+
+.reinos  {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reinos td   {
+  padding: 15px;
+}
+
+.reinos p {
+  color: #C79B49;
+  text-align: center;
+}
+
+#redania td p   {
+  color: #890000;
+}
+
+#redania td img {
+  width: 400px;
+  height: 400px;
+}
+
+#skellige p {
+  color: #584580;
+}
+
+#temeria td img {
+  width: 500px;
+  height: 680px;
+}
+
+#temeria td p   {
+  color: #2b4647;
+}
+
+#rivia td img   {
+  width: 500px;
+  height: 400px;
+}
+
+#rivia td p {
+  color: #456DFF;
 }
 
 #libros {
@@ -102,21 +179,22 @@ h2 {
   margin-right: auto;
 }
 
-#libros td {
+#libros td  {
   text-align: center;
   color: white;
 }
 
-#libros td img {
+#libros td img  {
   width: 270px;
   height: 350px;
+  transition: all 0.2s;
 }
 
-#libros td img:hover {
-  width: 300px;
-  height: 380px;
+#libros td img:hover    {
+  transform: scale(1.1);
 }
 
-#libros p {
+#libros p   {
   padding-bottom: 15px;
 }
+
