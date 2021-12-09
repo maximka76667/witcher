@@ -6,6 +6,12 @@
   }
 }
 
+@keyframes main__heading-link {
+  50% {
+    letter-spacing: 10px;
+  }
+}
+
 body {
   background-color: rgb(27, 26, 26);
   font-family: TW;
@@ -198,3 +204,24 @@ h3  {
   padding-bottom: 15px;
 }
 
+#diccionario    {
+  margin-left: 300px;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+#diccionario td {
+  color: white;
+  font-size: larger;
+  border: 2px white solid;
+}
+
+.titles {
+  font-weight: bold;
+  text-align: center;
+}
+
+.letters  {
+  font-size: xx-large;
+  text-align: center;
+}
