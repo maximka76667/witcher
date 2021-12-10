@@ -15,6 +15,7 @@
 body {
   background-color: rgb(27, 26, 26);
   font-family: TW;
+  margin: 0;
 }
 
 .main__heading-link {
@@ -224,4 +225,47 @@ h3  {
 .letters  {
   font-size: xx-large;
   text-align: center;
+}
+
+/* Nacion */
+.nacion__heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nacion__header {
+  padding: 20px;
+}
+
+.nacion__subheading {
+  font-size: 30px;
+}
+
+.nacion__banner {
+  margin: 0 30px;
+}
+
+.nacion__content {
+  display: flex;
+  padding: 50px;
+}
+
+.nacion__map {
+  width: 705px;
+  height: 810px;
+  margin-right: 50px;
+}
+
+.nacion__description {
+  padding: 30px;
+  font-size: 18px;
+}
+
+.nacion__paragraph {
+  margin: 0;
+}
+
+.nacion__paragraph:not(:last-of-type) {
+  margin-bottom: 20px;
 }
