@@ -94,13 +94,13 @@ h3  {
   color: white;
 }
 
-#naciones {
+#nations {
   margin: 400px auto 0;
   margin-top: 0%;
   border-collapse: collapse;
 }
 
-.naciones {
+.nations {
   color: white;
   text-align: center;
   font-size: medium;
@@ -108,17 +108,17 @@ h3  {
   text-align: center;
 }
 
-#naciones td {
+#nations td {
   text-align: center;
   padding-right: 30px;
 }
 
-.iconosnaciones {
+.iconosnations {
   width: 100px;
   height: 100px;
 }
 
-.iconosnaciones:hover{
+.iconosnations:hover{
   transform: scale(1.1);
 }
 
@@ -233,44 +233,44 @@ h3  {
 }
 
 /* Nacion */
-.nacion__heading-wrapper {
+.nation__heading-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nacion__header {
+.nation__header {
   padding: 20px;
 }
 
-.nacion__subheading {
+.nation__subheading {
   font-size: 30px;
 }
 
-.nacion__banner {
+.nation__banner {
   margin: 0 30px;
 }
 
-.nacion__content {
+.nation__content {
   display: flex;
   padding: 50px;
 }
 
-.nacion__map {
+.nation__map {
   width: 705px;
   height: 810px;
   margin-right: 50px;
 }
 
-.nacion__description {
+.nation__description {
   padding: 30px;
   font-size: 18px;
 }
 
-.nacion__paragraph {
+.nation__paragraph {
   margin: 0;
 }
 
-.nacion__paragraph:not(:last-of-type) {
+.nation__paragraph:not(:last-of-type) {
   margin-bottom: 20px;
 }
