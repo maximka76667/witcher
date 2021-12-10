@@ -53,6 +53,41 @@ h3  {
   color: white;
 }
 
+.menu {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: 100px auto 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu__link {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.menu__link-img {
+  width: 160px;
+  height: 160px;
+  transition: all 0.2s;
+}
+
+.menu__link:hover .menu__link-img {
+  transform: scale(1.1);
+}
+
+.menu__link-name {
+  margin: 5px 0;
+}
+
 #menu {
   margin: 100px auto 0;
   border-collapse: collapse;
@@ -88,7 +123,7 @@ h3  {
   height: 160px;
 }
 
-.categoría {
+.category {
   width: 160px;
   font-size: 25px;
   color: white;
