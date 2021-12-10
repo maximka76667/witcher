@@ -121,6 +121,15 @@ h3  {
   transform: scale(1.1);
 }
 
+.invertir {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.fixed_banner  {
+  
+}
+
 #nilfgaard  {
   margin-left: auto;
   margin-right: auto;
