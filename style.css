@@ -83,24 +83,24 @@ h3  {
   margin-top: 5px;
 }
 
-.señales {
+.signs {
   width: 160px;
   height: 160px;
 }
 
-.categoría {
+.category {
   width: 160px;
   font-size: 25px;
   color: white;
 }
 
-#naciones {
+#nations {
   margin: 400px auto 0;
   margin-top: 0%;
   border-collapse: collapse;
 }
 
-.naciones {
+.nations {
   color: white;
   text-align: center;
   font-size: medium;
@@ -108,17 +108,17 @@ h3  {
   text-align: center;
 }
 
-#naciones td {
+#nations td {
   text-align: center;
   padding-right: 30px;
 }
 
-.iconosnaciones {
+.nationicon {
   width: 100px;
   height: 100px;
 }
 
-.iconosnaciones:hover{
+.nationicon:hover{
   transform: scale(1.1);
 }
 
@@ -141,16 +141,16 @@ h3  {
   text-align: center;
 }
 
-.reinos  {
+.kingdom  {
   margin-left: auto;
   margin-right: auto;
 }
 
-.reinos td   {
+.kingdom td   {
   padding: 15px;
 }
 
-.reinos p {
+.kingdom p {
   color: #C79B49;
   text-align: center;
 }
@@ -186,27 +186,27 @@ h3  {
   color: #456DFF;
 }
 
-#libros {
+#book {
   margin-left: auto;
   margin-right: auto;
 }
 
-#libros td  {
+#book td  {
   text-align: center;
   color: white;
 }
 
-#libros td img  {
+#book td img  {
   width: 270px;
   height: 350px;
   transition: all 0.2s;
 }
 
-#libros td img:hover    {
+#book td img:hover    {
   transform: scale(1.1);
 }
 
-#libros p   {
+#book p   {
   padding-bottom: 15px;
 }
 
@@ -232,45 +232,46 @@ h3  {
   text-align: center;
 }
 
-/* Nacion */
-.nacion__heading-wrapper {
+/* Nation */
+.nation__heading-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nacion__header {
+.nation__header {
   padding: 20px;
 }
 
-.nacion__subheading {
+.nation__subheading {
+  color: white;
   font-size: 30px;
 }
 
-.nacion__banner {
+.nation__banner {
   margin: 0 30px;
 }
 
-.nacion__content {
+.nation__content {
   display: flex;
   padding: 50px;
 }
 
-.nacion__map {
+.nation__map {
   width: 705px;
   height: 810px;
   margin-right: 50px;
 }
 
-.nacion__description {
+.nation__description {
   padding: 30px;
-  font-size: 18px;
+  font-size: 23px;
 }
 
-.nacion__paragraph {
+.nation__paragraph {
   margin: 0;
 }
 
-.nacion__paragraph:not(:last-of-type) {
+.nation__paragraph:not(:last-of-type) {
   margin-bottom: 20px;
 }
