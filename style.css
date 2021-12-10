@@ -121,13 +121,9 @@ h3  {
   transform: scale(1.1);
 }
 
-.invertir {
+.inverse {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-}
-
-.fixed_banner  {
-  
 }
 
 #nilfgaard  {
