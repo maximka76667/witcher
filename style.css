@@ -118,7 +118,7 @@ h3  {
   margin-top: 5px;
 }
 
-.señales {
+.signs {
   width: 160px;
   height: 160px;
 }
@@ -148,12 +148,12 @@ h3  {
   padding-right: 30px;
 }
 
-.iconosnations {
+.nationicon {
   width: 100px;
   height: 100px;
 }
 
-.iconosnations:hover{
+.nationicon:hover{
   transform: scale(1.1);
 }
 
@@ -176,16 +176,16 @@ h3  {
   text-align: center;
 }
 
-.reinos  {
+.kingdom  {
   margin-left: auto;
   margin-right: auto;
 }
 
-.reinos td   {
+.kingdom td   {
   padding: 15px;
 }
 
-.reinos p {
+.kingdom p {
   color: #C79B49;
   text-align: center;
 }
@@ -221,27 +221,27 @@ h3  {
   color: #456DFF;
 }
 
-#libros {
+#book {
   margin-left: auto;
   margin-right: auto;
 }
 
-#libros td  {
+#book td  {
   text-align: center;
   color: white;
 }
 
-#libros td img  {
+#book td img  {
   width: 270px;
   height: 350px;
   transition: all 0.2s;
 }
 
-#libros td img:hover    {
+#book td img:hover    {
   transform: scale(1.1);
 }
 
-#libros p   {
+#book p   {
   padding-bottom: 15px;
 }
 
@@ -267,7 +267,7 @@ h3  {
   text-align: center;
 }
 
-/* Nacion */
+/* Nation */
 .nation__heading-wrapper {
   display: flex;
   justify-content: space-between;
@@ -279,6 +279,7 @@ h3  {
 }
 
 .nation__subheading {
+  color: white;
   font-size: 30px;
 }
 
@@ -299,7 +300,7 @@ h3  {
 
 .nation__description {
   padding: 30px;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .nation__paragraph {
