@@ -47,11 +47,11 @@ body {
   right: 0;
   width: 1000px;
   height: 1000px;
-  transform: translate(-50%, -50%) rotate(135deg);
+  transform: translate(-50%, -50%) rotate(0deg);
   content: "";
   display: block;
   opacity: 0;
-  background: url(./images/sword.png) 50% 50% no-repeat;
+  background: url(./images/sword2.png) 50% 50% no-repeat;
   z-index: -1;
 }
 
