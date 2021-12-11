@@ -102,15 +102,15 @@ h3 {
   text-decoration: none;
   font-size: 25px;
   color: white;
+  transition: all 0.2s;
 }
 
 .menu__link-img {
   width: 160px;
   height: 160px;
-  transition: all 0.2s;
 }
 
-.menu__link:hover .menu__link-img {
+.menu__link:hover {
   transform: scale(1.1);
 }
 
