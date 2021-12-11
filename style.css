@@ -23,13 +23,43 @@ body {
   text-decoration: none;
   white-space: nowrap;
   letter-spacing: 5px;
+  position: relative;
+  padding: 5px;
+  display: block;
+  margin: 40px 0;
+  overflow: hidden;
 }
 
-.main__heading-link:hover {
-  animation: main__heading 0.3s;
+.main__heading-link:hover:before {
+  opacity: 1;
+  left: 50%;
 }
 
-a, a:visited, a:hover, a:focus, a:hover  {
+.main__heading {
+  margin: 0;
+}
+
+.main__heading-link:before {
+  transition: all 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 1000px;
+  height: 1000px;
+  transform: translate(-50%, -50%) rotate(135deg);
+  content: "";
+  display: block;
+  opacity: 0;
+  background: url(./images/sword.png) 50% 50% no-repeat;
+  z-index: -1;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:hover {
   text-decoration: none;
 }
 
@@ -48,7 +78,7 @@ h2 {
   text-align: center;
 }
 
-h3  {
+h3 {
   text-align: center;
   color: white;
 }
@@ -88,47 +118,6 @@ h3  {
   margin: 5px 0;
 }
 
-#menu {
-  margin: 100px auto 0;
-  border-collapse: collapse;
-}
-
-#menu tr {
-  display: flex;
-}
-
-#menu td {
-  display: block;
-  text-align: center;
-}
-
-#menu td:not(:last-of-type) {
-  margin-right: 50px;
-}
-
-#menu td img {
-  transition: all 0.2s;
-}
-
-#menu td img:hover {
-  transform: scale(1.1);
-}
-
-.menu__categories {
-  margin-top: 5px;
-}
-
-.signs {
-  width: 160px;
-  height: 160px;
-}
-
-.category {
-  width: 160px;
-  font-size: 25px;
-  color: white;
-}
-
 #nations {
   margin: 400px auto 0;
   margin-top: 0%;
@@ -153,7 +142,7 @@ h3  {
   height: 100px;
 }
 
-.nationicon:hover{
+.nationicon:hover {
   transform: scale(1.1);
 }
 
@@ -162,35 +151,35 @@ h3  {
   transform: scaleX(-1);
 }
 
-#nilfgaard  {
+#nilfgaard {
   margin-left: auto;
   margin-right: auto;
 }
 
-#nilfgaard td   {
+#nilfgaard td {
   padding: 15px;
 }
 
 #nilfgaard p {
-  color: #C79B49;
+  color: #c79b49;
   text-align: center;
 }
 
-.kingdom  {
+.kingdom {
   margin-left: auto;
   margin-right: auto;
 }
 
-.kingdom td   {
+.kingdom td {
   padding: 15px;
 }
 
 .kingdom p {
-  color: #C79B49;
+  color: #c79b49;
   text-align: center;
 }
 
-#redania td p   {
+#redania td p {
   color: #890000;
 }
 
@@ -208,17 +197,17 @@ h3  {
   height: 680px;
 }
 
-#temeria td p   {
+#temeria td p {
   color: #2b4647;
 }
 
-#rivia td img   {
+#rivia td img {
   width: 500px;
   height: 400px;
 }
 
 #rivia td p {
-  color: #456DFF;
+  color: #456dff;
 }
 
 #book {
@@ -226,26 +215,26 @@ h3  {
   margin-right: auto;
 }
 
-#book td  {
+#book td {
   text-align: center;
   color: white;
 }
 
-#book td img  {
+#book td img {
   width: 270px;
   height: 350px;
   transition: all 0.2s;
 }
 
-#book td img:hover    {
+#book td img:hover {
   transform: scale(1.1);
 }
 
-#book p   {
+#book p {
   padding-bottom: 15px;
 }
 
-#diccionario    {
+#diccionario {
   margin-left: 300px;
   width: 70%;
   border-collapse: collapse;
@@ -262,7 +251,7 @@ h3  {
   text-align: center;
 }
 
-.letters  {
+.letters {
   font-size: xx-large;
   text-align: center;
 }
