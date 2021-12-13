@@ -42,11 +42,11 @@ body {
 .main__heading-link:before {
   transition: all 0.3s;
   position: absolute;
-  top: 50%;
+  top: -50%;
   left: 0;
   right: 0;
-  width: 1000px;
-  height: 1000px;
+  width: 3000px;
+  height: 3000px;
   transform: translate(-50%, -50%) rotate(0deg);
   content: "";
   display: block;
@@ -141,8 +141,8 @@ h3 {
 }
 
 .nations {
-  margin-left: 600px;
-  margin-right: 600px;
+  margin-left: 400px;
+  margin-right: 400px;
   display: flex;
 }
 
@@ -152,7 +152,11 @@ h3 {
 }
 
 .nations__menu-item {
-  padding: 10%;
+  padding: 5%;
+}
+
+.nations_map {
+  text-align: center;
 }
 
 #nations {
