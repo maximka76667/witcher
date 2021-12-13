@@ -146,7 +146,7 @@ h3 {
   border-collapse: collapse;
 }
 
-.nations {
+.nation_name {
   color: white;
   text-align: center;
   font-size: medium;
@@ -159,12 +159,12 @@ h3 {
   padding-right: 30px;
 }
 
-.nationicon {
+.nation_icon {
   width: 100px;
   height: 100px;
 }
 
-.nationicon:hover {
+.nation_icon:hover {
   transform: scale(1.1);
 }
 
