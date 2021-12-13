@@ -146,8 +146,13 @@ h3 {
   display: flex;
 }
 
+.nations_menu {
+  list-style-type: none;
+  padding: 0;
+}
+
 .nations__menu-item {
-  padding: 3%;
+  padding: 10%;
 }
 
 #nations {
