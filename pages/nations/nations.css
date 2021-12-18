@@ -1,0 +1,18 @@
+.nations {
+  margin-left: 400px;
+  margin-right: 400px;
+  display: flex;
+}
+
+.nations_menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nations__menu-item {
+  padding: 5%;
+}
+
+.nations_map {
+  text-align: center;
+}
