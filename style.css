@@ -16,7 +16,6 @@ body {
   background-color: rgb(27, 26, 26);
   font-family: TW;
   margin: 0;
-  padding: 30px;
 }
 
 .main__heading-link {
@@ -139,6 +138,13 @@ h3 {
   text-align: center;
 }
 
+.header {
+  top: 0;
+  position: sticky;
+  background-color: rgb(27, 26, 26);
+  z-index: 1;
+}
+
 .nav {
   display: flex;
   width: 50%;
@@ -146,13 +152,12 @@ h3 {
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
-  padding: 0 30px 30px;
+  padding: 15px;
 }
 
 .nav__link {
   padding: 5px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -163,8 +168,9 @@ h3 {
 }
 
 .nav__link-img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 .nav__link:hover {
