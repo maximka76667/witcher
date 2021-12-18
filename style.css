@@ -31,29 +31,8 @@ body {
   overflow: hidden;
 }
 
-.main__heading-link:hover:before {
-  opacity: 1;
-  left: 50%;
-}
-
 .main__heading {
   margin: 0;
-}
-
-.main__heading-link:before {
-  transition: all 0.3s;
-  position: absolute;
-  top: -50%;
-  left: 0;
-  right: 0;
-  width: 3000px;
-  height: 3000px;
-  transform: translate(-50%, -50%) rotate(0deg);
-  content: "";
-  display: block;
-  opacity: 0;
-  background: url(./images/menu/header/sword2.png) 50% 50% no-repeat;
-  z-index: -1;
 }
 
 a,
