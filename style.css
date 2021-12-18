@@ -276,94 +276,94 @@ h3 {
 }
 
 /* Nation */
-.nation__heading-wrapper {
+.nation-page__heading-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nation__header {
+.nation-page__header {
   padding: 20px;
 }
 
-.nation__subheading {
+.nation-page__subheading {
   color: white;
   font-size: 30px;
 }
 
-#redania .nation__subheading {
+#redania .nation-page__subheading {
   color: #a90000;
   text-align: center;
 }
 
-#skellige .nation__subheading {
+#skellige .nation-page__subheading {
   text-align: center;
 }
 
-#temeria .nation__subheading {
+#temeria .nation-page__subheading {
   text-align: center;
 }
 
-#rivia .nation__subheading {
+#rivia .nation-page__subheading {
   text-align: center;
 }
 
-.nation__banner {
+.nation-page__banner {
   margin: 0 30px;
 }
 
-#redania .nation__banner {
+#redania .nation-page__banner {
   margin: 0 30px;
   width: 170px;
 }
 
-#skellige .nation__banner_inverse {
+#skellige .nation-page__banner_inverse {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
-#temeria .nation__banner {
+#temeria .nation-page__banner {
   margin: 0 30px;
   width: 225px;
   height: 350px;
 }
 
-#rivia .nation__banner {
+#rivia .nation-page__banner {
   width: 250px;
   height: 200px;
 }
 
-.nation__content {
+.nation-page__content {
   display: flex;
   padding: 50px;
 }
 
-.nation__map {
+.nation-page__map {
   width: 705px;
   height: 810px;
   margin-right: 50px;
 }
 
-#redania .nation__map {
+#redania .nation-page__map {
   width: 400px;
   height: 450px;
 }
 
-#skellige .nation__map {
+#skellige .nation-page__map {
   width: 500px;
   height: 300px;
 }
 
-#rivia .nation__map {
+#rivia .nation-page__map {
   height: 400px;
 }
 
-.nation__description {
+.nation-page__description {
   padding: 30px;
   font-size: 23px;
 }
 
-.nation__paragraph {
+.nation-page__paragraph {
   margin: 0;
 }
 
