@@ -356,6 +356,10 @@ h3 {
   padding: 60px 30px;
 }
 
+.nation-page__heading {
+  font-size: 120px;
+}
+
 .nation-page__subheading {
   color: white;
   font-size: 30px;
