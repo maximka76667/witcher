@@ -18,20 +18,41 @@ body {
   margin: 0;
 }
 
-.main__heading-link {
+.logo {
+  width: 200px;
+}
+
+.logo__text {
+  font-size: 30px;
+}
+
+.logo__span:before {
+  display: inline-block;
+  width: 0;
+  content: "";
+  visibility: hidden;
+  opacity: 0;
   transition: all 0.3s;
-  text-decoration: none;
-  white-space: nowrap;
-  letter-spacing: 5px;
-  position: relative;
-  padding: 5px;
-  display: block;
-  margin: 10px 0 40px;
-  overflow: hidden;
+}
+
+.logo:hover .logo__span:before {
+  color: #fff;
+  width: 45px;
+  visibility: visible;
+  opacity: 1;
+  text-align: left;
+}
+
+.logo__span_he:before {
+  content: "he ";
+}
+
+.logo__span_itcher:before {
+  content: "itcher";
 }
 
 .main__heading {
-  margin: 0;
+  margin: 100px 0 40px;
 }
 
 a,
@@ -124,13 +145,16 @@ h3 {
   position: sticky;
   background-color: rgb(27, 26, 26);
   z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 .nav {
   display: flex;
-  width: 50%;
+  width: calc(100% - 500px);
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 100px;
   padding: 0;
   list-style-type: none;
   padding: 15px;
