@@ -10,6 +10,56 @@
 </head>
 
 <body>
+  <!-- Header -->
+  <header class="header">
+    <a href="../../index.html" class="logo">
+      <h1 class="logo__text">T<span class="logo__span logo__span_he"></span>W<span class="logo__span logo__span_itcher"></span></h1>
+    </a>
+    <!-- Navigation -->
+    <ul class="nav">
+      <li class="nav__item">
+        <a href="../characters.html" class="nav__link">
+          <img class="nav__link-img" src="../../images/menu/Aard.png">
+          <p class="nav__link-name">Personajes</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="./nations.html" class="nav__link">
+          <img class="nav__link-img" src="../../images/menu/Igni.png">
+          <p class="nav__link-name">Naciones</p>
+        </a>
+        <div class="nations__nav">
+          <ul class="nations__nav-list">
+            <li class="nations__nav-item"><a class="nations__nav-link" href="../Nilfgaard.html">Nilfgaard</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="../Redania.html">Redania</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="../temeria.html">Temeria</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="../Rivia.html">Rivia</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="../Skellige.html">Skellige</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav__item">
+        <a href="../signs.html" class="nav__link">
+          <img class="nav__link-img" src="../../images/menu/Axii.png">
+          <p class="nav__link-name">Senales</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="../books.html" class="nav__link">
+          <img class="nav__link-img" src="../../images/menu/Yrden.png">
+          <p class="nav__link-name">Libros</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="../old language.html" class="nav__link">
+          <img class="nav__link-img" src="../../images/menu/Quen.png">
+          <p class="nav__link-name">Lengua</p>
+        </a>
+      </li>
+    </ul>
+    <!-- /Navigation -->
+  </header>
+  <!-- Header -->
   <div id="nilfgaard" class="nation-page">
     <div class="nation-page__header">
       <div class="nation-page__heading-wrapper">
@@ -20,32 +70,36 @@
       <p class="nation-page__subheading">El imperio mas grande de la historia del continente</p>
     </div>
     <div class="nation-page__content">
-      <img class="nation-page__map" src="../images/nations/nilfgaard/nilfgaard mapa.png">
-      <div class="nation-page__description">
-        <p class="nation-page__paragraph">El Imperio Nilfgaardiano, a veces llamado simplemente Nilfgaard, es el imperio más
-          poderoso de la historia del mundo conocido. Comprende toda la zona sur del Continente y
-          posee una floreciente economía, un ejército fuerte y bien armado y unos comandantes con
-          mucho talento. Generalmente se ha expandido a través de la invasión de otros reinos, que
-          han pasado a convertirse en provincias del Imperio. Los habitantes del Imperio creen que
-          solamente deben ser considerados verdaderos nilfgaardianos aquellos nacidos en el
-          corazón del Imperio, y no en las provincias conquistadas.
-          Las provincias son gobernadas indistintamente por reyes y administradores (en los casos
-          en que un rey rinde voluntariamente su país al Imperio, retiene su trono, pero pasa a
-          convertirse en un vasallo del Emperador). El Imperio se ha expandido a lo largo de los
-          años, conquistando nuevas tierras y llegando hasta la altura del río Yaruga durante el
-          reinado de Emhyr var Emreis.
-        </p>
-        <p class="nation-page__paragraph">El Imperio de Nilfgaard es un antiguo y poderoso reino de las tierras del
-          sur. Su capital
-          es la ciudad de Nilfgaard, situada junto al río Alba. El Imperio creció gracias a las
-          conquistas, asimilando los reinos vecinos. Solamente los habitantes de las tierras junto
-          al río Alba tienen el derecho de llamarse a sí mismos Nilfgaardianos. Corre bastante
-          sangre élfica por sus venas y su idioma es una variante de la Lengua. El Imperio
-          es agresivo y concentra los intereses militares en invadir las tierras vecinas. Su
-          guerra con los Reinos del Norte terminó hace cinco años; y aún con un tratado de paz,
-          Nilfgaard no ha renunciado a sus pretensiones sobre los territorios septentrionales.
-        </p>
-      </div>
+        <section class="nation-page__section">
+          <p class="nation-page__paragraph">El Imperio Nilfgaardiano, a veces llamado simplemente Nilfgaard, es el imperio más
+            poderoso de la historia del mundo conocido. Comprende toda la zona sur del Continente y
+            posee una floreciente economía, un ejército fuerte y bien armado y unos comandantes con
+            mucho talento. Generalmente se ha expandido a través de la invasión de otros reinos, que
+            han pasado a convertirse en provincias del Imperio. Los habitantes del Imperio creen que
+            solamente deben ser considerados verdaderos nilfgaardianos aquellos nacidos en el
+            corazón del Imperio, y no en las provincias conquistadas.
+            Las provincias son gobernadas indistintamente por reyes y administradores (en los casos
+            en que un rey rinde voluntariamente su país al Imperio, retiene su trono, pero pasa a
+            convertirse en un vasallo del Emperador). El Imperio se ha expandido a lo largo de los
+            años, conquistando nuevas tierras y llegando hasta la altura del río Yaruga durante el
+            reinado de Emhyr var Emreis.
+          </p>
+        </section>
+        <section class="nation-page__section nation-page__section_light">
+          <img class="nation-page__map" src="../images/nations/nilfgaard/nilfgaard mapa.png">
+        </section>
+        <section class="nation-page__section">
+          <p class="nation-page__paragraph">El Imperio de Nilfgaard es un antiguo y poderoso reino de las tierras del
+            sur. Su capital
+            es la ciudad de Nilfgaard, situada junto al río Alba. El Imperio creció gracias a las
+            conquistas, asimilando los reinos vecinos. Solamente los habitantes de las tierras junto
+            al río Alba tienen el derecho de llamarse a sí mismos Nilfgaardianos. Corre bastante
+            sangre élfica por sus venas y su idioma es una variante de la Lengua. El Imperio
+            es agresivo y concentra los intereses militares en invadir las tierras vecinas. Su
+            guerra con los Reinos del Norte terminó hace cinco años; y aún con un tratado de paz,
+            Nilfgaard no ha renunciado a sus pretensiones sobre los territorios septentrionales.
+          </p>
+        </section>
     </div>
   </div>
 </body>

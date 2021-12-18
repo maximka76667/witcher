@@ -211,10 +211,6 @@ h3 {
   padding: 5px;
 }
 
-/* .nav__item:hover {
-  background-color: #000;
-} */
-
 .nav__item:hover .nations__nav {
   opacity: 1;
   visibility: visible;
@@ -272,7 +268,6 @@ h3 {
 
 #nilfgaard p {
   color: #c79b49;
-  text-align: center;
 }
 
 .kingdom {
@@ -358,12 +353,14 @@ h3 {
 }
 
 .nation-page__header {
-  padding: 20px;
+  padding: 60px 30px;
 }
 
 .nation-page__subheading {
   color: white;
   font-size: 30px;
+  text-align: center;
+  margin: 0;
 }
 
 #redania .nation-page__subheading {
@@ -410,13 +407,15 @@ h3 {
 
 .nation-page__content {
   display: flex;
-  padding: 50px;
+  flex-direction: column;
+  background-color: rgb(27, 26, 26);
+  font-size: 30px;
 }
 
 .nation-page__map {
-  width: 705px;
-  height: 810px;
-  margin-right: 50px;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 #redania .nation-page__map {
@@ -433,30 +432,31 @@ h3 {
   height: 400px;
 }
 
-.nation-page__description {
-  padding: 30px;
-  font-size: 23px;
+.nation-page__section {
+  padding: 60px 120px;
+}
+
+.nation-page__section_light {
+  background-color: #fff;
 }
 
 .nation-page__paragraph {
   margin: 0;
+  line-height: 1.25;
 }
 
-#redania .nation__paragraph {
+#redania .nation-page__paragraph {
   color: #a90000;
 }
 
-#skellige .nation__paragraph {
+#skellige .nation-page__paragraph {
   color: #584580;
 }
 
-#temeria .nation__paragraph {
+#temeria .nation-page__paragraph {
   color: #2b4647;
 }
 
-#rivia .nation__paragraph {
+#rivia .nation-page__paragraph {
   color: #456dff;
-}
-.nation__paragraph:not(:last-of-type) {
-  margin-bottom: 20px;
 }
