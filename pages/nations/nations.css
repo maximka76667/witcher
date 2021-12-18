@@ -25,38 +25,51 @@
   background: url(../../images/nations/mapa.jpg) 50% 50% no-repeat;
 }
 
-.nation {
+.nation__link {
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.nation__shield {
   width: 100px;
   height: 100px;
-  position: absolute;
   object-fit: contain;
 }
 
-.nation:hover {
+.nation__link:hover {
   transform: scale(1.1);
 }
 
-.nation_name_nilfgaard {
+.nation__link_of_nilfgaard {
   bottom: 80px;
   right: 100px;
 }
 
-.nation_name_redania {
+.nation__link_of_redania {
   top: 130px;
   left: 550px;
 }
 
-.nation_name_temeria {
+.nation__link_of_temeria {
   top: 400px;
   left: 600px;
 }
 
-.nation_name_rivia {
+.nation__link_of_rivia {
   top: 20%;
   left: 85%;
 }
 
-.nation_name_skellige {
+.nation__link_of_skellige {
   left: 175px;
   bottom: 200px;
+}
+
+.nation__name {
+  margin: 0;
+  background-color: #000;
+  text-align: center;
+  padding: 2px;
 }
