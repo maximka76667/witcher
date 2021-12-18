@@ -1,4 +1,4 @@
-.nations {
+/* .nations {
   margin-left: 400px;
   margin-right: 400px;
   display: flex;
@@ -15,4 +15,48 @@
 
 .nations_map {
   text-align: center;
+} */
+
+.nations__map {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 750px;
+  background: url(../../images/nations/mapa.jpg) 50% 50% no-repeat;
+}
+
+.nation {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  object-fit: contain;
+}
+
+.nation:hover {
+  transform: scale(1.1);
+}
+
+.nation_name_nilfgaard {
+  bottom: 180px;
+  right: 20px;
+}
+
+.nation_name_redania {
+  top: 50px;
+  left: 30px;
+}
+
+.nation_name_temeria {
+  right: 50px;
+  bottom: 60px;
+}
+
+.nation_name_rivia {
+  top: 30%;
+  right: 50%;
+}
+
+.nation_name_skellige {
+  left: 10px;
+  bottom: 10px;
 }
