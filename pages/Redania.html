@@ -6,71 +6,99 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redania</title>
+  <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <body>
-  <!DOCTYPE html>
-  <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redania</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
-  </head>
-
-  <body>
-    <table class="kingdom">
-      <tr>
-        <td rowspan="4"><img src="../images/nations/redania/redania banner.png"></td>
-        <td><a href="../pages/nations/nations.html">
-            <h1>REINO DE REDANIA</h1>
-          </a></td>
-        <td rowspan="4"><img src="../images/nations/redania/redania banner.png"></td>
-      </tr>
-      <tr>
-        <td>
-          <p>
-          <h3>El reino donde el comercio y el conocimiento se fusionan</h3>
+  <!-- Header -->
+  <header class="header">
+    <a href="../index.html" class="logo">
+      <h1 class="logo__text">T<span class="logo__span logo__span_he"></span>W<span class="logo__span logo__span_itcher"></span></h1>
+    </a>
+    <!-- Navigation -->
+    <ul class="nav">
+      <li class="nav__item">
+        <a href="./characters.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Aard.png">
+          <p class="nav__link-name">Personajes</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="./nations/nations.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Igni.png">
+          <p class="nav__link-name">Naciones</p>
+        </a>
+        <div class="nations__nav">
+          <ul class="nations__nav-list">
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./Nilfgaard.html">Nilfgaard</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./Redania.html">Redania</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./temeria.html">Temeria</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./Rivia.html">Rivia</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./Skellige.html">Skellige</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav__item">
+        <a href="./signs.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Axii.png">
+          <p class="nav__link-name">Senales</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="./books.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Yrden.png">
+          <p class="nav__link-name">Libros</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="./old language.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Quen.png">
+          <p class="nav__link-name">Lengua</p>
+        </a>
+      </li>
+    </ul>
+    <!-- /Navigation -->
+  </header>
+  <!-- Header -->
+  <div id="redania" class="nation-page">
+    <div class="nation-page__header">
+      <div class="nation-page__heading-wrapper">
+        <img class="nation-page__banner" src="../images/nations/redania/redania banner.png">
+        <h2 class="nation-page__heading"><a href="./nations/nations.html">Reino de Redania</a></h2>
+        <img class="nation-page__banner" src="../images/nations/redania/redania banner.png">
+      </div>
+      <p class="nation-page__subheading">El reino donde el comercio y el conocimiento se fusionan</p>
+      <hr>
+    </div>
+    <div class="nation-page__content">
+        <section class="nation-page__section">
+          <p class="nation-page__paragraph">Redania es uno de los reinos del Norte. Es un próspero reino que subsiste gracias al
+            comercio y a la agricultura. La ciudad capital de Redania es Tretogor. Oxenfurt, con
+            la más grande universidad en los reinos del Norte, así como la ciudad libre de
+            Novigrado están situados en Redania. Tiene fronteras con Temeria al sur, Kaedwen al
+            este, y Caingorn, Malleore y Kovir al norte.
           </p>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-      </tr>
-      <td></td>
-      <tr>
-        <td colspan="3">
-          <table id="redania">
-            <tr>
-              <td><img src="../images/nations/redania/redania mapa.jpg"></td>
-              <td>
-                <p>Redania es uno de los kingdom del Norte. Es un próspero reino que subsiste gracias al
-                  comercio y a la agricultura. La ciudad capital de Redania es Tretogor. Oxenfurt, con
-                  la más grande universidad en los kingdom del Norte, así como la ciudad libre de
-                  Novigrado están situados en Redania. Tiene fronteras con Temeria al sur, Kaedwen al
-                  este, y Caingorn, Malleore y Kovir al norte.
-                </p>
-                <p>Ubicada entre los ríos Buina al norte y Pontar al sur, es uno de los kingdom más
-                  importantes del norte. Su escudo de armas es un águila argéntea coronada y empuñando
-                  un cetro dorado sobre campo rojo, y en el pecho lleva un pequeño escudo negro con
-                  una cruz dorada. Pese a su inestabilidad reciente, el país superó la crisis
-                  provocada por la muerte del rey Vizimir II el Justo. La capital de Redania es
-                  Tretogor, sede regia del rey Radovid, aunque la región más poblada es la ciudad
-                  libre de Novigrado, capital del mundo, centro y cuna de cultura, donde un hombre
-                  ilustrado puede respirar hasta saciarse, mientras lo haga lejos de las callejuelas.
-                  Otra ciudad digna de mención es la académica Oxenfurt, donde vuestro seguro servidor
-                  fue a la universidad. Durante la última guerra contra Nilfgaard, Redania se alió con
-                  Temeria, Aedirn, Kaedwen y los otros países norteños para rechazar al invasor, y el
-                  Real Cuerpo Redaniano desempeñó un papel importante en la batalla de Brenna.
-                </p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+        </section>
+        <section class="nation-page__section nation-page__section_light">
+          <img class="nation-page__map" src="../images/nations/redania/redania mapa.jpg">
+        </section>
+        <section class="nation-page__section">
+          <p class="nation-page__paragraph">Ubicada entre los ríos Buina al norte y Pontar al sur, es uno de los kingdom más
+            importantes del norte. Su escudo de armas es un águila argéntea coronada y empuñando
+            un cetro dorado sobre campo rojo, y en el pecho lleva un pequeño escudo negro con
+            una cruz dorada. Pese a su inestabilidad reciente, el país superó la crisis
+            provocada por la muerte del rey Vizimir II el Justo. La capital de Redania es
+            Tretogor, sede regia del rey Radovid, aunque la región más poblada es la ciudad
+            libre de Novigrado, capital del mundo, centro y cuna de cultura, donde un hombre
+            ilustrado puede respirar hasta saciarse, mientras lo haga lejos de las callejuelas.
+            Otra ciudad digna de mención es la académica Oxenfurt, donde vuestro seguro servidor
+            fue a la universidad. Durante la última guerra contra Nilfgaard, Redania se alió con
+            Temeria, Aedirn, Kaedwen y los otros países norteños para rechazar al invasor, y el
+            Real Cuerpo Redaniano desempeñó un papel importante en la batalla de Brenna.
+          </p>
+        </section>
+    </div>
+  </div>
+</body>
 
-  </html>
+</html>

@@ -5,61 +5,98 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lyria y Rivia</title>
+  <title>Temeria</title>
+  <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <body>
-  <!DOCTYPE html>
-  <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
-  </head>
-
-  <body>
-    <table class="kingdom">
-      <tr>
-        <td rowspan="4"><img src="../images/nations/rivia/rivia banner.png" style="width: 300px;"></td>
-        <td><a href="../pages/nations/nations.html">
-            <h1>REINO DE LYRIA Y RIVIA</h1>
-          </a></td>
-        <td rowspan="4"><img src="../images/nations/rivia/rivia banner.png" style="width: 300px;"></td>
-      </tr>
-      <tr>
-        <td>
-          <p>
-          <h3>Lyria y Rivia, una vez enemigas, se juntan para hacer frente a las amenazas del exterior</h3>
+  <!-- Header -->
+  <header class="header">
+    <a href="../index.html" class="logo">
+      <h1 class="logo__text">T<span class="logo__span logo__span_he"></span>W<span class="logo__span logo__span_itcher"></span></h1>
+    </a>
+    <!-- Navigation -->
+    <ul class="nav">
+      <li class="nav__item">
+        <a href="./characters.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Aard.png">
+          <p class="nav__link-name">Personajes</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="./nations/nations.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Igni.png">
+          <p class="nav__link-name">Naciones</p>
+        </a>
+        <div class="nations__nav">
+          <ul class="nations__nav-list">
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./Nilfgaard.html">Nilfgaard</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./Redania.html">Redania</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./temeria.html">Temeria</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./Rivia.html">Rivia</a></li>
+            <li class="nations__nav-item"><a class="nations__nav-link" href="./Skellige.html">Skellige</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav__item">
+        <a href="./signs.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Axii.png">
+          <p class="nav__link-name">Senales</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="./books.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Yrden.png">
+          <p class="nav__link-name">Libros</p>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="./old language.html" class="nav__link">
+          <img class="nav__link-img" src="../images/menu/Quen.png">
+          <p class="nav__link-name">Lengua</p>
+        </a>
+      </li>
+    </ul>
+    <!-- /Navigation -->
+  </header>
+  <!-- Header -->
+  <div id="rivia" class="nation-page">
+    <div class="nation-page__header">
+      <div class="nation-page__heading-wrapper">
+        <img class="nation-page__banner" src="../images/nations/temeria/temeria banner.png">
+        <h2 class="nation-page__heading"><a href="./nations/nations.html">Reino de Temeria</a></h2>
+        <img class="nation-page__banner" src="../images/nations/temeria/temeria banner.png">
+      </div>
+      <p class="nation-page__subheading">Nacion poderosa gobernada por el ambicioso Rey Foltest</p>
+      <hr>
+    </div>
+    <div class="nation-page__content">
+        <section class="nation-page__section">
+          <p class="nation-page__paragraph">Temeria es uno de los Reinos del Norte, ubicado al sur del río Pontar. Sus vecinos son
+            Redania, Kerack, Kaedwen, Aedirn, Mahakam, Bajo Sodden, el bosque de Brokilón y Cidaris.
+            Uno de los lugares destacados de Temeria es el ducado de Ellander y la isla de los magos
+            Thanedd, con la escuela para jóvenes hechiceras adeptas que se ubica en la costa del
+            reino.
+            Después de las Guerras Norteñas, Temeria se benefició al máximo de la derrota de
+            Nilfgaard, expandiendo sus fronteras hasta el sur de Angren y Tras Ríos, llegando hasta
+            los montes Amell. Pero el reino también recibió un duro golpe con respecto a su
+            economía, lo que lo obligó a comprar bienes de su vecino del sur.
           </p>
-        </td>
-      </tr>
-      <tr>
-        <td></td>
-      </tr>
-      <td></td>
-      <tr>
-        <td colspan="3">
-          <table id="rivia">
-            <tr>
-              <td><img src="../images/nations/rivia/rivia mapa.png"></td>
-              <td>
-                <p>El reino de Lyria y Rivia es uno de los Reinos del Norte, ubicado al norte del río
-                  Yaruga. Los vecinos del reino son Mahakam, Aedirn y Angren
-                  El reino colapsó y se reorganizó nuevamente un par de veces, lo que llevó a decir
-                  que "Lyria y Rivia estaban en guerra entre sí o unidas por una unión personal".
-                  Durante la Segunda Guerra del Norte, Lyria y Rivia fue conquistada por Nilfgaard,
-                  sin ninguna declaración formal de guerra. Sin embargo, fue liberada en las últimas
-                  fases de la guerra.
-                </p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+        </section>
+        <section class="nation-page__section nation-page__section_light">
+          <img class="nation-page__map" src="../images/nations/temeria/temeria mapa.jpg">
+        </section>
+        <section class="nation-page__section">
+          <p class="nation-page__paragraph">Temeria está habitada no solo por gente, sino también por enanos y elfos, así como gnomos
+            y dríades. Tras la devastadora guerra con Nilfgaard, muchas zonas se han visto invadidas
+            por todo tipo de monstruos, que hasta entonces no eran una seria amenaza, y los caminos
+            son inseguros por culpa de los forajidos y los bandidos. Por ello, la profesión de brujo
+            vuelve a ser necesaria, aunque la gente los trata con cautela y desdén, llamándolos
+            mutantes y engendros.
+          </p>
+        </section>
+    </div>
+  </div>
+</body>
 
-  </html>
+</html>

@@ -357,6 +357,19 @@ h3 {
   padding: 60px 30px;
 }
 
+.nation-page__header hr{
+  width: 20%;
+  border: 1px solid #c79b49;
+}
+
+#redania .nation-page__header hr  {
+  border: 1px solid #a90000;
+}
+
+#temeria .nation-page__header hr  {
+  border: 1px solid #488183;
+}
+
 .nation-page__heading {
   font-size: 120px;
 }
@@ -379,6 +392,7 @@ h3 {
 
 #temeria .nation-page__subheading {
   text-align: center;
+  color: #488183;
 }
 
 #rivia .nation-page__subheading {
@@ -442,12 +456,13 @@ h3 {
 }
 
 .nation-page__section_light {
-  background-color: #fff;
+  background-color: rgb(27, 26, 26);
 }
 
 .nation-page__paragraph {
   margin: 0;
   line-height: 1.25;
+  font-size: x-large;
 }
 
 #redania .nation-page__paragraph {
@@ -459,7 +474,7 @@ h3 {
 }
 
 #temeria .nation-page__paragraph {
-  color: #2b4647;
+  color: #488183;
 }
 
 #rivia .nation-page__paragraph {
